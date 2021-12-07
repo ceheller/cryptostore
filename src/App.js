@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NavBar from './components/navbar/NavBar';
+import Bitcoin from "./pages/navbar/Bitcoin"
+import Ethereum from "./pages/navbar/Ethereum"
+import Bnb from "./pages/navbar/Bnb"
+import Matic from "./pages/navbar/Matic"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <p>Welcome to Heller's Cryptocurrency store!</p>
+      <NavBar component={NavBar} /> 
+      <Switch>
+        <Route path='/' exact component={Bitcoin} />
+        <Route path='/Ethereum' component={Ethereum} />
+        <Route path='/Bnb' component={Bnb} />
+        <Route path='/Matic' component={Matic} />
+      </Switch>
+    </Router>
   );
 }
-
 export default App;
