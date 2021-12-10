@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cryptostore/static/css/main.3eef5c3a.chunk.css",
+    "main.js": "/cryptostore/static/js/main.2656569e.chunk.js",
+    "main.js.map": "/cryptostore/static/js/main.2656569e.chunk.js.map",
+    "runtime-main.js": "/cryptostore/static/js/runtime-main.12ab8f08.js",
+    "runtime-main.js.map": "/cryptostore/static/js/runtime-main.12ab8f08.js.map",
+    "static/js/2.c3c12518.chunk.js": "/cryptostore/static/js/2.c3c12518.chunk.js",
+    "static/js/2.c3c12518.chunk.js.map": "/cryptostore/static/js/2.c3c12518.chunk.js.map",
+    "static/js/3.1f238fe5.chunk.js": "/cryptostore/static/js/3.1f238fe5.chunk.js",
+    "static/js/3.1f238fe5.chunk.js.map": "/cryptostore/static/js/3.1f238fe5.chunk.js.map",
+    "index.html": "/cryptostore/index.html",
+    "static/css/main.3eef5c3a.chunk.css.map": "/cryptostore/static/css/main.3eef5c3a.chunk.css.map",
+    "static/js/2.c3c12518.chunk.js.LICENSE.txt": "/cryptostore/static/js/2.c3c12518.chunk.js.LICENSE.txt",
+    "static/media/bitcoin.b747109c.png": "/cryptostore/static/media/bitcoin.b747109c.png",
+    "static/media/bitcoinSVG.7a660c72.svg": "/cryptostore/static/media/bitcoinSVG.7a660c72.svg",
+    "static/media/bnb.92643887.png": "/cryptostore/static/media/bnb.92643887.png",
+    "static/media/eth.a2fd1f64.png": "/cryptostore/static/media/eth.a2fd1f64.png",
+    "static/media/matic.1140771b.png": "/cryptostore/static/media/matic.1140771b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12ab8f08.js",
+    "static/js/2.c3c12518.chunk.js",
+    "static/css/main.3eef5c3a.chunk.css",
+    "static/js/main.2656569e.chunk.js"
+  ]
+}
