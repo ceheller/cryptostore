@@ -5,6 +5,7 @@ const Matic = () =>{
     <div>
       <h3>Matic</h3>
       <div>
+        <h1> Hi, I'm Matic! Buy me </h1>
         <img class="cryptoLogo" src={maticLogo} alt="maticImage"/>
       </div>
     </div>
