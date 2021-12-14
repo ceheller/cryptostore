@@ -10,7 +10,7 @@ export default function ItemCount() {
   const [itemCount, setItemCount] = React.useState(1);
 
   return (
-    <div style={{ display: "block", padding: 30 }}>
+    <div class="ItemCount">
         <h4>Add me to the chart!</h4>
       <div>
         <Badge color="secondary" badgeContent={itemCount-1}>
