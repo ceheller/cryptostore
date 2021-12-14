@@ -1,5 +1,7 @@
 import React from 'react';
 import ethereumLogo from './eth.png'
+import ItemCount from '../../components/navbar/ItemCount';
+
 const Ethereum = () =>{
   return (
     <div>
@@ -7,6 +9,7 @@ const Ethereum = () =>{
       <div>
        <h1> Hi, I'm Ethereum! Buy me </h1>
         <img class="cryptoLogo" src={ethereumLogo} alt="ethereumImage"/>
+        <ItemCount />
       </div>
     </div>
   );

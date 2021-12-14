@@ -1,5 +1,8 @@
 import React from 'react';
 import bnbLogo from './bnb.png'
+import ItemCount from '../../components/navbar/ItemCount';
+
+
 const Bnb = () =>{
   return (
     <div>
@@ -7,6 +10,7 @@ const Bnb = () =>{
       <div>
       <h1> Hi, I'm Binance Coin! Buy me </h1>
       <img class="cryptoLogo" src={bnbLogo} alt="bnbImage"/>
+      <ItemCount />
       </div>
     </div>
   );
