@@ -1,6 +1,6 @@
 import React from 'react';
 import maticLogo from './matic.png'
-import ItemCount from '../../components/itemCount/ItemCount';
+import ItemListContainer from '../../components/navbar/ItemListContainer';
 
 const Matic = () =>{
   return (
@@ -9,7 +9,7 @@ const Matic = () =>{
       <div>
         <h1> Hi, I'm Matic! Buy me </h1>
         <img class="cryptoLogo" src={maticLogo} alt="maticImage"/>
-        <ItemCount />
+        <ItemListContainer />
       </div>
     </div>
   );

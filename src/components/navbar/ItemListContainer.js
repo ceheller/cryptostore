@@ -1,7 +1,7 @@
 import React from 'react';
 import ItemCount from '../itemCount/ItemCount';
 
-const ItemListConstainer = ({Greeting}) => {
+const ItemListContainer = ({Greeting}) => {
     const onAdd = (quantity) => {
         console.log("Number of units you are buying: " + quantity)
     }
@@ -14,4 +14,4 @@ return (
 )
 
 }
-export default ItemListConstainer;
+export default ItemListContainer;

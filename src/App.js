@@ -5,13 +5,10 @@ import Bitcoin from "./pages/navbar/Bitcoin"
 import Ethereum from "./pages/navbar/Ethereum"
 import Bnb from "./pages/navbar/Bnb"
 import Matic from "./pages/navbar/Matic"
-import ItemListContainer from './components/navbar/ItemListContainer';
-
 
 function App() {
   return (
     <Router>
-    <ItemListContainer />
     <NavBar component={NavBar} /> 
       <Switch>
         <Route path='/' exact component={Bitcoin} />
