@@ -1,6 +1,6 @@
 import React from 'react';
 import ethereumLogo from './eth.png'
-import ItemCount from '../../components/navbar/ItemCount';
+import ItemCount from '../../components/itemCount/ItemCount';
 
 const Ethereum = () =>{
   return (

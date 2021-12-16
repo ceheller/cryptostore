@@ -1,6 +1,6 @@
 import React from 'react';
 import maticLogo from './matic.png'
-import ItemCount from '../../components/navbar/ItemCount';
+import ItemCount from '../../components/itemCount/ItemCount';
 
 const Matic = () =>{
   return (

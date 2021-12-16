@@ -1,6 +1,6 @@
 import React from 'react';
 import bitcoinLogo from './bitcoin.png';
-import ItemCount from '../../components/navbar/ItemCount';
+import ItemCount from '../../components/itemCount/ItemCount';
 
 const Bitcoin = () =>{
   return (

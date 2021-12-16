@@ -1,7 +1,6 @@
 import React from 'react';
 import bnbLogo from './bnb.png'
-import ItemCount from '../../components/navbar/ItemCount';
-
+import ItemCount from '../../components/itemCount/ItemCount';
 
 const Bnb = () =>{
   return (
