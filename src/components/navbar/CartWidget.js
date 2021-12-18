@@ -4,7 +4,7 @@ import BitcoinIcon from "./bitcoinSVG.svg";
 const CartWidget = () => {
     return ( 
         <div>
-           	<img class="mainLogo" src={BitcoinIcon} alt="bitcoinSVG"/>
+           	<img className="mainLogo" src={BitcoinIcon} alt="bitcoinSVG"/>
         </div>
      );
     }

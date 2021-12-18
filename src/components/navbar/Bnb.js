@@ -1,6 +1,5 @@
 import React from 'react';
 import bnbLogo from './bnb.png'
-import ItemListContainer from '../../components/navbar/ItemListContainer';
 
 const Bnb = () =>{
   return (
@@ -8,8 +7,7 @@ const Bnb = () =>{
       <h3>Bnb</h3>
       <div>
       <h1> Hi, I'm Binance Coin! Buy me </h1>
-      <img class="cryptoLogo" src={bnbLogo} alt="bnbImage"/>
-      <ItemListContainer />
+      <img className="cryptoLogo" src={bnbLogo} alt="bnbImage"/>
       </div>
     </div>
   );

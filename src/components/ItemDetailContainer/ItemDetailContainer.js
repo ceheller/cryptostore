@@ -1,4 +1,4 @@
-import ItemDetail from "../ItemDetail/ItemDetail"
+import ItemDetail from "./ItemDetail";
 
 const initialProduct =  {
     name : "Bitcoin",

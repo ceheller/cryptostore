@@ -1,6 +1,5 @@
 import React from 'react';
 import maticLogo from './matic.png'
-import ItemListContainer from '../../components/navbar/ItemListContainer';
 
 const Matic = () =>{
   return (
@@ -8,8 +7,7 @@ const Matic = () =>{
       <h3>Matic</h3>
       <div>
         <h1> Hi, I'm Matic! Buy me </h1>
-        <img class="cryptoLogo" src={maticLogo} alt="maticImage"/>
-        <ItemListContainer />
+        <img className="cryptoLogo" src={maticLogo} alt="maticImage"/>
       </div>
     </div>
   );
